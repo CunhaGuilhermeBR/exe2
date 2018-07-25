@@ -1,4 +1,3 @@
-# exe2 questão A
 int main()
 {
 
@@ -8,5 +7,28 @@ int main()
      for(i=0; i<5; i++){
             printf("%d ", v[i]);
      }
-     return 0;
+     
+     //questão b
+     b = 0;
+     
+     
+     for(i=0; i<1; i++)
+     {
+     b = b+v[i];
      }
+      
+      
+      for(i=1; i<1; i++)
+     {
+     b = b+v[i];
+     }
+      
+     
+      for(i=5; i<1; i++)
+     {
+     b = b+v[i];
+     }
+     printf("\n %d", b);
+    
+    return 0;
+}
